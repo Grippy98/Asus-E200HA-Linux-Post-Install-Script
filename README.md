@@ -7,7 +7,10 @@ A Linux Post install script for The Asus E200HA and other Intel Cherry Trail Dev
 Download this script from GitHub, navigate to the page where you downloaded it, such as *```cd /Downloads```*
 
 And execute the following script (requires superuser privileges):
+
 *```sudo ./e200ha.sh```*
+
+####Update: Trackpad Gestures now Working!
 
 ###On Generic Cherry Trail Devices:
 Download this script from GitHub, navigate to the page where you downloaded it, such as *```cd /Downloads```*
@@ -15,7 +18,7 @@ Download this script from GitHub, navigate to the page where you downloaded it, 
 And execute the following script (requires superuser privileges):
 *```sudo ./CherryTrailGeneric.sh```*
 
-####Update: Trackpad Gestures now Working!
+
 
 ###Audio still not functional but as of 9 December it seems Connexant is going to release one. If so, this page will be updated....
 
@@ -25,7 +28,7 @@ And execute the following script (requires superuser privileges):
 
 ### Features of This Script:
   - *Working Trackpad + Gestures* (Left/Right Click, Scrolling, 4 Fingers Left/Right, possibly more)
-    - Credits go to vlasenko on GitHub
+    - Credits go to [vlasenko](https://github.com/vlasenko/hid-asus-dkms) on GitHub for his Asus DKMS Driver
   - *Disables Sleep/Hibernation* (Prevents freezes when computer starts up again, lid is reopened)
     - This is still an issue with the Linux Kernel and Cherry Trail Devices, this prevents the laptop from hanging upon waking up. Luckly, when you close the lid, it locks the laptop and turns the screen off, consuming little power.
   - Installs *tlp* and *thermald* tools to help save battery power long term. Read up on them and learn to use them.
