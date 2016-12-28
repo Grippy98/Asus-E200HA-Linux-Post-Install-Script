@@ -20,14 +20,14 @@ A Linux Post install script for The Asus E200HA and other Intel Cherry Trail Dev
 
 ##Optional:
 
-Debian.org recommends that you add the "discard" and "noatime" options for every partition on any eMMC Storage Device (like our little CherryTrail devices).
+Debian.org recommends that you add the *"discard"* and *"noatime"* options for every partition on any eMMC Storage Device (like our little CherryTrail devices).
 
-You can do this by typing:
+####You can do this by typing:
 
-```sudo nano /etc/fstab```
+#####```sudo nano /etc/fstab```
 and adding ```discard,noatime``` on every fourth column for the different partitions you may have.
 
 Most likely, this just means you should edit the line for your root or "/" partition and edit the line right before ```errors=remount-ro 0``` so that it looks like this:
-###```discard,noatime,errors=remount-ro 0```
+#####```discard,noatime,errors=remount-ro 0```
 
 If you'd like to incorporate this into the main script, send me a pull request, it just sounded like more work to script than it was worth, but I'm open to contributions.
