@@ -27,7 +27,7 @@ A Linux Post install script for The Asus E200HA and other Intel Cherry Trail Dev
 Download this script from GitHub, navigate to the page where you downloaded it, such as **```cd /Downloads```**
 
 And execute the following script (requires superuser privileges):
-
+**```sudo chmod u+x e200ha.sh```**
 **```sudo ./e200ha.sh```**
 
 ####Update: Trackpad Gestures now Working!
@@ -36,8 +36,8 @@ And execute the following script (requires superuser privileges):
 ---
 Download this script from GitHub, navigate to the page where you downloaded it, such as **```cd /Downloads```**
 
-Execute the following script (requires superuser privileges):
-
+Execute the following commands (requires superuser privileges):
+**```sudo chmod u+x CherryTrailGeneric.sh```**
 **```sudo ./CherryTrailGeneric.sh```**
 
 ####Audio still not functional but as of 9 December it seems Connexant is going to release one. If so, this page will be updated....
