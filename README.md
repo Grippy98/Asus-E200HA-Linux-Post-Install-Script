@@ -26,7 +26,7 @@ A Linux Post install script for The Asus E200HA and other Intel Cherry Trail Dev
 ---
 Download this script from GitHub, navigate to the page where you downloaded it, such as **```cd /Downloads```**
 
-And execute the following script (requires superuser privileges):
+And execute the following commands (requires superuser privileges):
 
 **```sudo chmod u+x e200ha.sh```**
 
