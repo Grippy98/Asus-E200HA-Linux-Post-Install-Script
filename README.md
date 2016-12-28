@@ -20,7 +20,7 @@ A Linux Post install script for The Asus E200HA and other Intel Cherry Trail Dev
 
 #####Note: The MicroSD card reader should work on any Kernel newer than 4.5 (use ```uname -a``` to check), but there is a current bug which means Sandisk cards are not detected. Talk about bizarre issues. If anybody had a fix for this, let me know. Other brand cards should work...
 
-## To Install:
+# To Install:
 
 ###On the E200HA:
 ---
@@ -32,7 +32,7 @@ And execute the following script (requires superuser privileges):
 
 ####Update: Trackpad Gestures now Working!
 
-###On Generic Cherry Trail Devices:
+###On Other Cherry Trail Devices:
 ---
 Download this script from GitHub, navigate to the page where you downloaded it, such as **```cd /Downloads```**
 
