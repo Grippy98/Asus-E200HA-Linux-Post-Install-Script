@@ -4,6 +4,9 @@
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target #Disable Suspend, broken on CherryTrail
 sudo sh -c 'echo -e "[Login]\nHandleLidSwitch=ignore\nHandleLidSwitchDocked=ignore" >> /etc/systemd/logind.conf' #Disable Sleep/Hybernate when Lid is Closed
 
+#Let's now install tlp and thermald to save you some battery life
+sudo apt-get install tlp thermald -y
+
 #Now Let's Enable Trackpad Gestures
 sudo apt-get install git -y
 git clone https://github.com/vlasenko/hid-asus-dkms.git

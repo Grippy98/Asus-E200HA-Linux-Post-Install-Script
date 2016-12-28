@@ -1,7 +1,21 @@
 # Asus E200HA Linux Post Install Script
 A Linux Post install script for The Asus E200HA and other Intel Cherry Trail Devices
 
-##Update: Trackpad Gestures now Working!
+## To Install:
+
+###On the E200HA:
+Download this script from GitHub, navigate to the page where you downloaded it, such as *```cd /Downloads```*
+
+And execute the following script (requires superuser privileges):
+*```sudo ./e200ha.sh```*
+
+###On Generic Cherry Trail Devices:
+Download this script from GitHub, navigate to the page where you downloaded it, such as *```cd /Downloads```*
+
+And execute the following script (requires superuser privileges):
+*```sudo ./CherryTrailGeneric.sh```*
+
+####Update: Trackpad Gestures now Working!
 
 ###Audio still not functional but as of 9 December it seems Connexant is going to release one. If so, this page will be updated....
 
@@ -10,15 +24,32 @@ A Linux Post install script for The Asus E200HA and other Intel Cherry Trail Dev
   - If you test it on your own device/distro/kernel, send me a message/pull request!
 
 ### Features of This Script:
-  - Working Trackpad + Gestures (Left/Right Click, Scrolling, 4 Fingers Left/Right, possibly more)
+  - *Working Trackpad + Gestures* (Left/Right Click, Scrolling, 4 Fingers Left/Right, possibly more)
     - Credits go to vlasenko on GitHub
-  - Disables Sleep/Hibernation
+  - *Disables Sleep/Hibernation* (Prevents freezes when computer starts up again, lid is reopened)
     - This is still an issue with the Linux Kernel and Cherry Trail Devices, this prevents the laptop from hanging upon waking up. Luckly, when you close the lid, it locks the laptop and turns the screen off, consuming little power.
-  - Optional exFAT and NTSC Support - Only part of "Full" script, not part of minimal
-  - Generic Script without Trackpad driver for any other Cherry Trail Device
+  - Installs *tlp* and *thermald* tools to help save battery power long term. Read up on them and learn to use them.
+  - *Generic Script without Trackpad driver for any other Cherry Trail Device*
 
+### Still Broken:
+  - Built-in Audio
+  - Sandisk MicroSD cards
+
+#####Note: The MicroSD card reader should work on any Kernel newer than 4.5 (use ```uname -a``` to check), but there is a current bug which means Sandisk cards are not detected. Talk about bizarre issues. If anybody had a fix for this, let me know. Other brand cards should work...
 
 ##Optional:
+
+###Enabling exFAT Support:
+
+If you want to use external USB Drives larger than 32GB in size, I use an external 128GB Samsung USB3 Disk.
+
+This is a generic Linux issue but in order to be able to mount exFAT partitions, you must run the following:
+
+*```sudo apt-get install exfat-fuse exfat-utils```*
+
+You should now be able to mount exFAT drives.
+
+###eMMC Conservation Settings
 
 Debian.org recommends that you add the *"discard"* and *"noatime"* options for every partition on any eMMC Storage Device (like our little CherryTrail devices).
 
