@@ -16,9 +16,8 @@ A Linux Post install script for The Asus E200HA and other Intel Cherry Trail Dev
 
 ### Still Broken:
   - Built-in Audio
-  - Sandisk MicroSD cards
-
-#####Note: The MicroSD card reader should work on any Kernel newer than 4.5 (use ```uname -a``` to check), but there is a current bug which means Sandisk cards are not detected. Talk about bizarre issues. If anybody had a fix for this, let me know. Other brand cards should work...
+  - MicroSD card reader
+  - USB3 Flash Devices cause system hang if in USB3 mode and not USB2
 
 # To Install:
 
