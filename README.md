@@ -1,3 +1,14 @@
+#Update from Connexant (e-mail) on Audio Support
+
+I messaged Simon Ho from Connexant about progress on the ALSA Audio driver for the CX2072X Codec that the E200HA uses and he replied: 
+
+> We made some changes on power management and jack detection based on Mark input. We was planed to verify these features on >Intel minnow board. But we found the MCLK won't come out from SOC. Reported to intel community and they. Just fixed this >issue last week. 
+>I'm in traveling. Will continue this new driver released when I come back to my office next week. 
+>Simon
+>Date: March 2nd 2017
+
+This hopefully means we will see the ALSA driver updated soon. I will keep you up to date on this as best as I can. 
+
 # Asus E200HA Linux Post Install Script
 A Linux Post install script for The Asus E200HA and other Intel Cherry Trail Devices
 
