@@ -1,4 +1,4 @@
-Update March 7th 2017: I have gotten the Audio patch files and am compiling a patched version of Kernel 4.8 as we speak. Except an update in the next couple of days, hopefully I get permission to release the source code/instructions as well. 
+**Update March 7th 2017:** I have gotten the Audio patch files and am compiling a patched version of Kernel 4.8 as we speak. Expect an update in the next couple of days, hopefully I get permission to release the source code/instructions as well. 
 
 #Update from Connexant (e-mail) on Audio Support
 
