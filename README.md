@@ -1,4 +1,4 @@
-**Update  March 10th 2017:** Some progress is being made but I'll be away from the keyboard for the next week. Hopefully we can get Audio in two weeks to a month's time. Even more hopefulyl is that the required code will get patched in Kernel 10.11. I will update as more is done. 
+**Update  March 10th 2017:** Some progress is being made but I'll be away from the keyboard for the next week. Hopefully we can get Audio in two weeks to a month's time. Even more hopefulyl is that the required code will get patched in Kernel 4.11. I will update as more is done. 
 
 **Update March 7th 2017:** I have gotten the Audio patch files and am compiling a patched version of Kernel 4.8 as we speak. Expect an update in the next couple of days, hopefully I get permission to release the source code/instructions as well. 
 
