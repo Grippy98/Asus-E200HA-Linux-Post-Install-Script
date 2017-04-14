@@ -7,9 +7,9 @@ cd kernel
 sudo dpkg -i *.deb
 tar -xvf chtcx2072x.tar
 cd chtcx2072x
-mkdir /usr/share/alsa/ucm/chtcx2072x/
-mv chtcx2072x.conf /usr/share/alsa/ucm/chtcx2072x/
-mv HiFi.conf /usr/share/alsa/ucm/chtcx2072x/
+sudo mkdir /usr/share/alsa/ucm/chtcx2072x/
+sudo mv chtcx2072x.conf /usr/share/alsa/ucm/chtcx2072x/
+sudo mv HiFi.conf /usr/share/alsa/ucm/chtcx2072x/
 
 #Now let's take care of Linux Cherry Trail Suspend Issues by disabling Sleep/Hybernation
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target #Disable Suspend, broken on CherryTrail
