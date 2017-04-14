@@ -31,7 +31,6 @@ A Linux Post install script for The Asus E200HA and other Intel Cherry Trail Dev
   - **Generic Script without Trackpad driver for any other Cherry Trail Device**
 
 ### Still Broken:
-  - Built-in Audio
   - MicroSD card reader
   - USB3 Flash Devices cause system hang if in USB3 mode and not USB2
 
