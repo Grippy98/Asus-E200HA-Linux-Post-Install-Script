@@ -1,7 +1,7 @@
 #Let's get sound working
 sudo apt-get update
 sudo apt-get install unzip -y
-wget -O -c  "https://github.com/Grippentech/Asus-E200HA-Linux-Post-Install-Script/releases/download/0.1/kernel.zip"
+wget -O "https://github.com/Grippentech/Asus-E200HA-Linux-Post-Install-Script/releases/download/0.1/kernel.zip"
 unzip kernel.zip
 cd kernel
 sudo dpkg -i *.deb
