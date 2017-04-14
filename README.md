@@ -1,19 +1,17 @@
-**Update  April 13th 2017:** Compiled a version of the kernel that should fix the sound issue. Once I confirm it works tonight I will update the script to patch sound. Stay tuned. 
+**Update  April 13th 2017:** SOUND NOW WORKS! I compiled a script that bundles all the improvements along with sound now. 
 
-**Update  March 10th 2017:** Some progress is being made but I'll be away from the keyboard for the next week. Hopefully we can get Audio in two weeks to a month's time. Even more hopefulyl is that the required code will get patched in Kernel 4.11. I will update as more is done. 
+To install it, clone the repository, cd into it then run:
+**```sudo chmod u+x e200ha_with_sound.sh```**
 
-**Update March 7th 2017:** I have gotten the Audio patch files and am compiling a patched version of Kernel 4.8 as we speak. Expect an update in the next couple of days, hopefully I get permission to release the source code/instructions as well. 
+**```sudo ./e200ha_with_sound.sh```**
 
-#Update from Connexant (e-mail) on Audio Support
+This will take a while as it will download a new version of the kernel and install it, around 20 minutes.
 
-I messaged Simon Ho from Connexant about progress on the ALSA Audio driver for the CX2072X Codec that the E200HA uses and he replied: 
+Please note that this is an experimental build of the kernel and an experimental build of the sound driver. As such you are on your own if you experience any issues or even damage to your device (should, SHOULD be perfectly safe). 
 
-> We made some changes on power management and jack detection based on Mark input. We was planed to verify these features on Intel minnow board. But we found the MCLK won't come out from SOC. Reported to intel community and they. Just fixed this Issue last week. 
-I'm in traveling. Will continue this new driver released when I come back to my office next week. 
-Simon
-Date: March 2nd 2017
+Thank you to Takashy Iwai and Pierre-Louis Bousson for all of their hard work on the patch as well as Simon Ho from Connexant. 
 
-This hopefully means we will see the ALSA driver updated soon. I will keep you up to date on this as best as I can. 
+Note: The version of the Linux Kernel being installed is 4.10. 
 
 # Asus E200HA Linux Post Install Script
 A Linux Post install script for The Asus E200HA and other Intel Cherry Trail Devices
