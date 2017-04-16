@@ -14,6 +14,8 @@ Thank you to Takashy Iwai and Pierre-Louis Bossart for all of their hard work on
 
 Note: The version of the Linux Kernel being installed is 4.10. 
 
+**BUG WARNING** : Currently this works perfectly on Ubuntu 16.10 or newer. If you are using a different distro or 16.04, your sound will cut out after playing for a few seconds. You can try installing Pulseaudio 9 (these distros seem to have 8 installed) from a 3rd party repository, otherwise please upgrade to Ubuntu 16.10 as it's the only tested config. 
+
 # Asus E200HA Linux Post Install Script
 A Linux Post install script for The Asus E200HA and other Intel Cherry Trail Devices
 
