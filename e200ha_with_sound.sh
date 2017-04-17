@@ -11,6 +11,12 @@ sudo mkdir /usr/share/alsa/ucm/chtcx2072x/
 sudo mv chtcx2072x.conf /usr/share/alsa/ucm/chtcx2072x/
 sudo mv HiFi.conf /usr/share/alsa/ucm/chtcx2072x/
 
+#Now let's cleanup the files so we save space. 
+cd ..
+cd ..
+sudo rm -r kernel
+sudo rm kernel.zip
+
 #Now let's take care of Linux Cherry Trail Suspend Issues by disabling Sleep/Hybernation
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target #Disable Suspend, broken on CherryTrail
 sudo sh -c 'echo -e "[Login]\nHandleLidSwitch=ignore\nHandleLidSwitchDocked=ignore" >> /etc/systemd/logind.conf' #Disable Sleep/Hybernate when Lid is Closed
@@ -26,6 +32,11 @@ cd hid-asus-dkms
 sudo apt-get install dkms -y
 sudo ./dkms-add.sh
 
+#Now clean that up too
+cd ..
+rm -r hid-asus-dkms
+
+#Now prompt the user and reboot
 echo "It's normal if Trackpad stops working now, system will reboot in 15 seconds, trackpad should work once rebooted"
 sleep 15 #wait 15 seconds
 sudo reboot now #Reboot to reenable Trackpad
