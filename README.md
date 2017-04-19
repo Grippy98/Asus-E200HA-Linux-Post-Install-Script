@@ -1,3 +1,5 @@
+**Update April 19th 2017** New kernel patch based on 4.11 will be up soon, will hopefully fix some of the issues people are having. Stay tuned. 
+
 **Update  April 13th 2017: SOUND NOW WORKS!** I compiled a script that bundles all the improvements along with sound now. 
 
 To install it, clone the repository, cd into it then run:
