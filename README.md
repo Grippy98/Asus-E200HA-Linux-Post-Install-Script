@@ -10,7 +10,7 @@ This will take a while as it will download a new version of the kernel and insta
 
 Please note that this is an experimental build of the kernel and an experimental build of the sound driver. As such you are on your own if you experience any issues or even damage to your device (should, SHOULD be perfectly safe). 
 
-Thank you to Takashy Iwai and Pierre-Louis Bossart for all of their hard work on the patch as well as Simon Ho from Connexant. 
+**Thank you to Takashy Iwai and Pierre-Louis Bossart for all of their hard work on the patch as well as Simon Ho from Connexant.** 
 
 Note: The version of the Linux Kernel being installed is 4.10. 
 
