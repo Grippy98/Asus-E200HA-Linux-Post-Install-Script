@@ -27,7 +27,7 @@ Note: The current version of the Linux Kernel being installed is 4.11-rc5.
 **BUG WARNING** : Currently this works nearly perfectly on Ubuntu 16.10 or newer. If you are using a different distro or 16.04, your sound will cut out after playing for a few seconds. If you find you are having issues, please upgrade to Ubuntu 16.10 or 17.04 as it's the only verified configuration.
 
   - If you test it on your own device/distro/kernel, send me a message/pull request!
-
+---
 #### To Install for Generic  Cherry Trail Based Devices (lacks most improvements, including kernel):
 
 Download this script from GitHub, navigate to the page where you downloaded it, such as **```cd /Downloads```**
