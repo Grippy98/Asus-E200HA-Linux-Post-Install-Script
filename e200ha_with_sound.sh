@@ -18,6 +18,6 @@ sudo sh -c 'echo -e "[Login]\nHandleLidSwitch=ignore\nHandleLidSwitchDocked=igno
 #Let's now install tlp and thermald to save you some battery life
 sudo apt-get install tlp thermald -y
 #Change fstab a little bit for better eMMC support, eMMC Conservation settings
-sed -i -e 's/errors=remount-ro 0/discard,noatime,errors=remount-ro 0/g' /etc/fstab
+sudo sed -i -e 's/errors=remount-ro 0/discard,noatime,errors=remount-ro 0/g' /etc/fstab
 sleep 15 #wait 15 seconds
 sudo reboot now #Reboot to reenable Trackpad
