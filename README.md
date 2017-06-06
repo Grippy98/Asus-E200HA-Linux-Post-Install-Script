@@ -1,7 +1,7 @@
 # Asus E200HA Linux Post Install Script
 A Linux Post install script for The Asus E200HA and other Intel Cherry Trail Devices.
 
-**Update April 19th 2017** New kernel patch based on 4.11 will be up soon, will hopefully fix some of the issues people are having. Stay tuned. 
+**Update June 6 2017** New kernel patch based on 4.12.0rc1 Released, should improve stability. 
 
 **Update  April 13th 2017: SOUND NOW WORKS!** I compiled a script that bundles all the improvements along with sound now. 
 
