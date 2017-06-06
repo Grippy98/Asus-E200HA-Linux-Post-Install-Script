@@ -1,7 +1,7 @@
 #Let's get sound working
 sudo apt-get update
 sudo apt-get install unzip -y
-wget "https://github.com/Grippentech/Asus-E200HA-Linux-Post-Install-Script/releases/download/0.1/kernel.zip"
+wget "https://github.com/Grippentech/Asus-E200HA-Linux-Post-Install-Script/releases/download/0.3/kernel.zip"
 unzip kernel.zip
 cd kernel
 sudo dpkg -i *.deb
@@ -10,6 +10,12 @@ cd chtcx2072x
 sudo mkdir /usr/share/alsa/ucm/chtcx2072x/
 sudo mv chtcx2072x.conf /usr/share/alsa/ucm/chtcx2072x/
 sudo mv HiFi.conf /usr/share/alsa/ucm/chtcx2072x/
+
+#Now cleanup the files
+cd ..
+cd .. 
+sudo rm -r kernel
+sudo rm kernel.zip
 
 #Now let's take care of Linux Cherry Trail Suspend Issues by disabling Sleep/Hybernation
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target #Disable Suspend, broken on CherryTrail
