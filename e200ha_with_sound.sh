@@ -12,6 +12,7 @@ sudo mv chtcx2072x.conf /usr/share/alsa/ucm/chtcx2072x/
 sudo mv HiFi.conf /usr/share/alsa/ucm/chtcx2072x/
 
 #Now cleanup the files
+sudo apt autoremove #Remove old versions of kernel
 cd ..
 cd .. 
 sudo rm -r kernel
