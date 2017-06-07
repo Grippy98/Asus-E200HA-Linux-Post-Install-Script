@@ -18,14 +18,14 @@ cd ..
 sudo rm -r kernel
 sudo rm kernel.zip
 
-#Now let's fix Backlight Controls up and down
-sudo touch /usr/share/X11/xorg.conf.d/20-intel.conf
-sudo sh -c "{ echo 'Section "Device"
-        Identifier  "card0"
-        Driver      "intel"
-        Option      "Backlight"  "intel_backlight"
-        BusID       "PCI:0:2:0"
-EndSection'; } >> /usr/share/X11/xorg.conf.d/20-intel.conf"
+#Now let's fix Backlight Controls up and down, THIS SEEMS TO BE CAUSING ISSUES> REMOVED TEMPORARILY.
+#sudo touch /usr/share/X11/xorg.conf.d/20-intel.conf
+#sudo sh -c "{ echo 'Section "Device"
+#        Identifier  "card0"
+#        Driver      "intel"
+#        Option      "Backlight"  "intel_backlight"
+#        BusID       "PCI:0:2:0"
+#EndSection'; } >> /usr/share/X11/xorg.conf.d/20-intel.conf"
 
 #Now let's take care of Linux Cherry Trail Suspend Issues by disabling Sleep/Hybernation
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target #Disable Suspend, broken on CherryTrail
