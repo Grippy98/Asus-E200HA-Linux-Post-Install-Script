@@ -1,8 +1,8 @@
 #Let's get sound working
 sudo apt-get update
 sudo apt-get install unzip -y
-wget "https://github.com/Grippentech/Asus-E200HA-Linux-Post-Install-Script/releases/download/0.3/kernel.zip"
-unzip kernel.zip
+wget "https://github.com/Grippentech/Asus-E200HA-Linux-Post-Install-Script/releases/download/0.4/kernel13.zip"
+unzip kernel13.zip
 cd kernel
 sudo dpkg -i *.deb
 tar -xvf chtcx2072x.tar
