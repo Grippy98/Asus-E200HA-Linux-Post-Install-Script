@@ -3,7 +3,7 @@ sudo apt-get update
 sudo apt-get install unzip -y
 wget "https://github.com/Grippentech/Asus-E200HA-Linux-Post-Install-Script/releases/download/0.4/kernel13.zip"
 unzip kernel13.zip
-cd kernel
+cd kernel13
 sudo dpkg -i *.deb
 tar -xvf chtcx2072x.tar
 cd chtcx2072x
