@@ -1,5 +1,5 @@
-# Asus E200HA Linux Post Install Script
-A Linux Post install script for The Asus E200HA and other Intel Cherry Trail Devices.
+# Asus E200HA and X206HA Linux Post Install Script
+A Linux Post install script for The Asus E200HA, X206HA and other Intel Cherry Trail Devices.
 
 **Update June 6 2017** New kernel patch based on 4.12.0rc1 Released, should improve stability. 
 
@@ -7,8 +7,7 @@ A Linux Post install script for The Asus E200HA and other Intel Cherry Trail Dev
 
 ## How To Install:
 
-#### On The Asus E200HA:
-
+#### On The Asus E200HA or X206HA:
 
 1. Download the script you want to use from GitHub (such as e200ha_with_sound.sh),  navigate to the page where you downloaded it, such as **```cd /Downloads```**
 
@@ -16,18 +15,20 @@ A Linux Post install script for The Asus E200HA and other Intel Cherry Trail Dev
 
 3. Run the script: **```sudo ./e200ha_with_sound.sh```**
 
-This will take a while as it will download a new version of the kernel and install it, around 20 minutes, maybe more depending on your internet connection.
+This will take a while as it will download a new version of the kernel and install it (600+MB currently)
 
-Please note that this is an experimental build of the kernel and an experimental build of the sound driver. As such you are on your own if you experience any issues or even damage to your device, there are no reports of this happening, but be careful nonetheless. 
+Please note that this is an experimental build of the kernel and an experimental build of the sound driver. As such you are on your own if you experience any issues or even damage your device, there are no reports of this happening, but be careful nonetheless. 
 
-Note: The current version of the Linux Kernel being installed is 4.11-rc5. 
+Note: The current version of the Linux Kernel being installed is 4.12-rc6. 
 
 **Thank you to Takashy Iwai and Pierre-Louis Bossart and Simon Ho for all of their hard work on the patch.** 
 
-**BUG WARNING** : Currently this works nearly perfectly on Ubuntu 16.10 or newer. If you are using a different distro or 16.04, your sound will cut out after playing for a few seconds. If you find you are having issues, please upgrade to Ubuntu 16.10 or 17.04 as it's the only verified configuration.
+**BUG WARNING** : Currently this works nearly perfectly on Ubuntu 16.10 or newer. If you are using a different distro or 16.04, your sound will cut out after playing for a few seconds. If you find you are having issues, please upgrade to Ubuntu 16.10 or 17.04 as it's the only verified configuration. Your choice of desktop environment could cause sound to stop working. 
 
   - If you test it on your own device/distro/kernel, send me a message/pull request!
+
 ---
+
 #### To Install for Generic  Cherry Trail Based Devices (lacks most improvements, including kernel):
 
 Download this script from GitHub, navigate to the page where you downloaded it, such as **```cd /Downloads```**
