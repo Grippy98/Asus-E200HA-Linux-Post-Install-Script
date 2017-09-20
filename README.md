@@ -12,7 +12,7 @@ Best of luck!
 
 **If Wireless networking stops working for whatever reason (mostly after going to sleep)**
 
-Use: ```sudo service network-manager restart``` to restart the network manager serevice (thanks to matt32106) for pointing this out
+Use: ```sudo service network-manager restart``` to restart the network manager service (thanks to matt32106) for pointing this out
 
 ## How To Install:
 
