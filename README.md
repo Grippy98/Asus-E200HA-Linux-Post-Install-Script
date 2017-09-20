@@ -1,9 +1,14 @@
 # Asus E200HA and X206HA Linux Post Install Script
 A Linux Post install script for The Asus E200HA, X206HA and other Intel Cherry Trail Devices.
 
-**Update June 6 2017** New kernel patch based on 4.12.0rc1 Released, should improve stability. 
+**Note as of 20 September 2017** Due to time constraints with school on my part, I no longer have time to keep up with bug fixes and compiling new kernel versions from Takashi as they become availeable. That being said, the current version of the script (despite using a larger than needed kernel (storage wise)) works quite well enough and should get most everyone going who wants to use Linux on these laptops. It looks like the required kernel patches will soon be incorporated into the mainline kernel so this script shouldn't be needed for much longer. 
 
-**Update  April 13th 2017: SOUND NOW WORKS!** I compiled a script that bundles all the improvements along with sound now. 
+That being said it will still be availeable and myself (and the people watching the Repo) will do our best to answer any questions and keep it updated. 
+
+If there are any major developments that you believe should be implemented into the script (including new Kernel developments) please don't hesitate to create an issue or e-mail me directly and I will do my best to integrate it.
+
+Best of luck!
+- Andrei
 
 ## How To Install:
 
