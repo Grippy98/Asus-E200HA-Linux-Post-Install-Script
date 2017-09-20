@@ -10,6 +10,10 @@ If there are any major developments that you believe should be implemented into 
 Best of luck!
 - Andrei
 
+**If Wireless networking stops working for whatever reason (mostly after going to sleep)**
+
+Use: ```sudo service network-manager restart``` to restart the network manager serevice (thanks to matt32106) for pointing this out
+
 ## How To Install:
 
 #### On The Asus E200HA or X206HA:
