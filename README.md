@@ -1,3 +1,8 @@
+Please note this repository is archived as I no longer have the time to actively maintain it. Thank you all who helped contribute and have enjoyed using it on your laptop. 
+
+Best,
+Andrei
+
 # Asus E200HA and X206HA Linux Post Install Script
 A Linux Post install script for The Asus E200HA, X206HA and other Intel Cherry Trail Devices.
 
